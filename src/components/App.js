@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Intro from './Intro'
 import AboutMe from './AboutMe'
+import ProjectList from './ProjectList'
 import 'tachyons'
 import 'animate.css'
 
@@ -9,7 +10,8 @@ class App extends Component {
     return (
       <div className='pa3 pa4-ns'>
         <Intro /><br />
-        <AboutMe />
+        <AboutMe /><br />
+        <ProjectList />
       </div>
     );
   }
