@@ -6,7 +6,7 @@ class AboutMe extends Component {
     return (
       <div className='tc animate__animated animate__fadeIn animate__delay-3s'>
         <p className='f2 b'>About Me</p>
-        <div className='tl b dib pa3 f4 '>
+        <div className='tl b dib pa3 f5 '>
           Fun fact, after years of wanting to learn how to code, but telling <br />
           myself "programming is magic and there is no way you could understand it" <br />
           I decided, I fancy learning me some of this magic, loved it, quit <br />
@@ -14,7 +14,9 @@ class AboutMe extends Component {
           and making myself this shinny website!<br />
           Two things are nearly always on my mind. What shall I learn next? <br />
           and what shall I have for dinner? one less important than the other, but both <br />
-          important to understand how my mind works. <br /><br />
+          important to understand how my mind works. <br />
+          a bit further down you can see a few of my projects, but you can also visit my github<br />
+          or get in contact with me via email or linkedIn<br /><br />
           <div className='flex'>
             <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://github.com/ChrisCooney05">GitHub</a>
             <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://www.linkedin.com/in/chris-cooney-003028160/">LinkedIn</a>
