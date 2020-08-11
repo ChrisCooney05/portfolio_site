@@ -1,11 +1,16 @@
 import React, { Component } from 'react'
+import '../intro.css'
+import 'animate.css'
 
 class Intro extends Component {
-  render() { 
-    return (  
-      <div>
-        Hi There, I'm Chris<br/>
-        A Full-Stack Developer
+  render() {
+    const fadeLeft = 'animate__animated animate__fadeInLeft green'
+    return (
+      <div className='pa3 pa4-ns'>
+        <div className={fadeLeft}>
+          Hi There, I'm Chris<br />
+          A Full-Stack Developer
+        </div>
       </div>
     );
   }
