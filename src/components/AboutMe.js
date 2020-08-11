@@ -14,7 +14,12 @@ class AboutMe extends Component {
           and making myself this shinny website!<br />
           Two things are nearly always on my mind. What shall I learn next? <br />
           and what shall I have for dinner? one less important than the other, but both <br />
-          important to understand how my mind works. <br />
+          important to understand how my mind works. <br /><br />
+          <div className='flex'>
+            <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://github.com/ChrisCooney05">GitHub</a>
+            <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://www.linkedin.com/in/chris-cooney-003028160/">LinkedIn</a>
+            <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="mailto:chris.cooney05@hotmail.co.uk">Email Me</a>
+          </div>
         </div>
         <img src={image} alt='myImage' width='200px' className='bw2 shadow-5 br3' />
       </div>
