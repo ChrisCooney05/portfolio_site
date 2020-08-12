@@ -18,9 +18,9 @@ class AboutMe extends Component {
           a bit further down you can see a few of my projects, but you can also visit my github<br />
           or get in contact with me via email or linkedIn<br /><br />
           <div className='flex'>
-            <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://github.com/ChrisCooney05">GitHub</a>
-            <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://www.linkedin.com/in/chris-cooney-003028160/">LinkedIn</a>
-            <a class="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="mailto:chris.cooney05@hotmail.co.uk">Email Me</a>
+            <a className="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://github.com/ChrisCooney05">GitHub</a>
+            <a className="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="https://www.linkedin.com/in/chris-cooney-003028160/">LinkedIn</a>
+            <a className="w-25 pa3 mr2 f6 link dim br2 ba bw1 ph3 pv2 mb2 dib black" href="mailto:chris.cooney05@hotmail.co.uk">Email Me</a>
           </div>
         </div>
         <img src={image} alt='myImage' width='200px' className='bw2 shadow-5 br3' />
