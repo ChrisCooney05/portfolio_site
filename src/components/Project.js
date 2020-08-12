@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
+
 class Project extends Component {
   render() {
-    const { title, description } = this.props
+    const { title, description, link } = this.props
     return (
-      <div className='tc dib br3 pa5 ma2 grow bw2 shadow-5 w-two-thirds pa2'>
-        {title}<br /><br />
-        {description}<br />
-      </div>
+      <a href={link} className='tc dib br3 pa5 ma2 grow bw2 shadow-5 pa2 w-30 mr2 no-underline black' target='_blank'>
+        <span className='f2 b green'>{title}</span>
+        <p>{description}</p>
+      </a>
     );
   }
 }
