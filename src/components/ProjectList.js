@@ -10,7 +10,7 @@ class ProjectList extends Component {
         <Project key={i} title={project.title} description={project.description} link={project.link} />
       );
     })
-    return <div className='tc flex flex-wrap'>{projectList}</div>
+    return <div className='tc flex flex-wrap animate__animated animate__fadeIn animate__delay-4s'>{projectList}</div>
   }
 }
 
