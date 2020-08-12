@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className='pa3 pa4-ns'>
-        <Intro /><br />
+        <Intro /><br /><br />
         <AboutMe /><br />
         <ProjectList />
       </div>
