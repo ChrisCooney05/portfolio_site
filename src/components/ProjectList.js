@@ -11,6 +11,7 @@ class ProjectList extends Component {
           title={project.title}
           description={project.description}
           link={project.link}
+          img={project.img}
         />
       );
     });
