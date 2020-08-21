@@ -49,23 +49,23 @@ class Project extends Component {
     });
 
     return (
-      <Background className="br4">
-        <DisplayOver className="br4">
-          <a
-            href={link}
-            className="no-underline black"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+      <a
+        href={link}
+        className="no-underline black"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Background className="br4 ma2">
+          <DisplayOver className="br4">
             <Hover>
               <Paragraph>
-                <span className="f2 b green">{title}</span>
-                <p className="white">{description}</p>
+                <span className="f1 b green">{title}</span>
+                <p className="f3 white">{description}</p>
               </Paragraph>
             </Hover>
-          </a>
-        </DisplayOver>
-      </Background>
+          </DisplayOver>
+        </Background>
+      </a>
     );
   }
 }
