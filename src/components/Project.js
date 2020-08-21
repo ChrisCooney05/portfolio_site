@@ -38,7 +38,7 @@ class Project extends Component {
       cursor: "pointer",
       backgroundImage: `url(${img})`,
       [`:hover ${DisplayOver}`]: {
-        backgroundColor: "rgba(0,0,0,.5)",
+        backgroundColor: "rgba(0,0,0,0.9)",
       },
       [`:hover ${Paragraph}`]: {
         transform: "translate3d(0,0,0)",
@@ -49,8 +49,8 @@ class Project extends Component {
     });
 
     return (
-      <Background>
-        <DisplayOver>
+      <Background className="br4">
+        <DisplayOver className="br4">
           <a
             href={link}
             className="no-underline black"
