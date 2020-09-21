@@ -1,12 +1,20 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class Intro extends Component {
   render() {
     return (
-      <div >
-        <span className='animate__animated animate__fadeIn green f-headline ma4 b'>Hi There,</span> <br />
-        <span className='animate__animated animate__fadeIn animate__delay-1s green f-headline ma4 b'>I'm Chris</span><br />
-        <span className='animate__animated animate__fadeIn animate__delay-2s green f-headline ma4 b'>A Full-Stack Developer</span>
+      <div className="mh5-ns">
+        <h1 className="animate__animated animate__fadeIn green f-headline ma2 b">
+          Hi There
+        </h1>
+
+        <h1 className="animate__animated animate__fadeIn animate__delay-1s green f-headline ma2 b">
+          I'm Chris
+        </h1>
+
+        <h1 className="animate__animated animate__fadeIn animate__delay-2s green f-headline ma2 b">
+          A Full Stack Developer
+        </h1>
       </div>
     );
   }
