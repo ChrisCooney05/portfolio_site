@@ -1,23 +1,23 @@
-const projectArray = [
+export const projectArray = [
   {
     title: "Face-Bot",
     description:
       "Frontend Built using React and styled with CSS/Tachyons. Backend built with Express, PostgreSQL and Knex.js. Submit image urls and watch the app locate and highlight any faces",
-    link: "https://github.com/ChrisCooney05/face_recognition_frontend",
+    link: "https://face-bot.netlify.app/",
     img: require("./assets/face-bot.png"),
   },
   {
     title: "RoboFriends",
     description:
       "Built using React and styled with CSS/Tachyons. Displays a list of robots that you can filter through. Site reacts to any input and removes robots that don't match without the need to submit",
-    link: "https://github.com/ChrisCooney05/robofriends",
+    link: "https://chriscooney05.github.io/robofriends/",
     img: require("./assets/robo.png"),
   },
   {
     title: "CodeQuest()",
     description:
       "Makers final project. Built with React/Javascript/Redux, styled with CSS/Tachyons. Game designed for children to promote explorative and problem solving skils",
-    link: "https://github.com/ChrisCooney05/codeQuest",
+    link: "https://lets-codequest.netlify.app/",
     img: require("./assets/hero.png"),
   },
   {
@@ -31,9 +31,7 @@ const projectArray = [
     title: "Bowling Score Card",
     description:
       "Built using HTML/CSS/JQuery with backend logic in Javascript. Buttons and frames update as you enter scores to prevent miss scoring. Can be reset at the click of a button",
-    link: "https://github.com/ChrisCooney05/bowling-challenge",
+    link: "https://chriscooney05.github.io/bowling-challenge/",
     img: require("./assets/bowl.png"),
   },
 ];
-
-export default projectArray;

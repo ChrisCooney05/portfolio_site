@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Project from "./Project";
-import projectArray from "../projectJson";
+import { projectArray } from "../projectJson";
 
 class ProjectList extends Component {
   render() {

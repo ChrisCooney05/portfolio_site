@@ -4,7 +4,6 @@ import styled from "@emotion/styled/macro";
 class Project extends Component {
   render() {
     const { title, description, link, img } = this.props;
-    console.log(img);
     const DisplayOver = styled.div({
       height: "100%",
       left: "0",
