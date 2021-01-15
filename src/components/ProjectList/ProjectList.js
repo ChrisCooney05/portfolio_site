@@ -1,6 +1,6 @@
 import React from "react";
-import Project from "./Project";
-import { projectArray } from "../projectJson";
+import Project from "../Project/Project";
+import { projectArray } from "../../projectJson";
 
 const ProjectList = () => {
   const projectList = projectArray.map((project, i) => {
